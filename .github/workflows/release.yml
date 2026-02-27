@@ -27,10 +27,10 @@ jobs:
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
         with:
-          version: stable
+          version: "1.5.1"
 
       - name: Install dependencies
-        run: forge install --no-commit
+        run: forge install foundry-rs/forge-std
 
       # Release should only happen if project builds and tests cleanly.
       - name: Build contracts

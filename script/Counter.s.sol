@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import {Script} from "forge-std/Script.sol";
-import {console2} from "forge-std/console2.sol";
-import {Counter} from "../src/Counter.sol";
+import { Script } from "forge-std/Script.sol";
+import { console2 } from "forge-std/console2.sol";
+import { Counter } from "../src/Counter.sol";
 
 contract CounterScript is Script {
-    function setUp() public {}
+    function setUp() public { }
 
     function run() public {
         // Reads the private key from your environment variables

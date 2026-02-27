@@ -33,14 +33,15 @@ jobs:
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
         with:
-          version: stable
+          # Pin toolchain for reproducible CI behavior across time.
+          version: "1.5.1"
 
       - name: Show Forge version
         run: forge --version
 
       # Keep dependency install explicit for repos that don't commit /lib.
       - name: Install dependencies
-        run: forge install --no-commit
+        run: forge install foundry-rs/forge-std
 
       - name: Check formatting
         run: forge fmt --check
