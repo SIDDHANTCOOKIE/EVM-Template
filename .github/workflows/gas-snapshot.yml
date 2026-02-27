@@ -43,8 +43,12 @@ jobs:
           version: "1.5.1"
 
       - name: Install dependencies
-        run: forge install foundry-rs/forge-std
-
+        run: |
+          if [ -d lib/forge-std ]; then
+           echo "forge-std already present, skipping install"
+          else
+           forge install foundry-rs/forge-std
+          fi
       - name: Check or generate gas snapshot
         run: |
           if [ -f .gas-snapshot ]; then
