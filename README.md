@@ -106,7 +106,7 @@ TODO: In the checklist below, mark the items that have been completed and delete
 
 > TODO: Replace with your actual contract architecture. Example below.
 
-```
+```text
 src/
 ├── TODO_Contract.sol       # Core logic contract
 ├── interfaces/
@@ -159,7 +159,7 @@ Example structure to include:
 
 ## Repository Structure
 
-```
+```text
 .
 ├── .github/
 │   └── workflows/           # CI, security, gas, fuzz, release pipelines
@@ -195,7 +195,7 @@ TODO: Update with your repository structure
 | Tool | Version | Install |
 |---|---|---|
 | `git` | any | [git-scm.com](https://git-scm.com/) |
-| `foundryup` | latest | `curl -L https://foundry.paradigm.xyz \| bash` |
+| `foundryup` | latest | See [getfoundry.sh](https://getfoundry.sh) |
 | `forge` / `cast` / `anvil` | latest | run `foundryup` after install |
 
 Verify installation:
@@ -342,7 +342,7 @@ forge script script/Deploy.s.sol \
 
 TODO: Add user flow diagrams showing how users interact with your application
 
-```
+```text
 [User Flow Diagram Placeholder]
 ```
 
@@ -385,7 +385,7 @@ Pre-configured RPC endpoints in `foundry.toml`. Each mainnet has a corresponding
 
 > 📋 Token lists follow the URL pattern:
 >
-> ```
+> ```text
 > https://raw.githubusercontent.com/StabilityNexus/TokenList/main/<chain>-tokens.json
 > ```
 >
@@ -453,6 +453,6 @@ See the [LICENSE](LICENSE) file for details.
 
 Thanks a lot for spending your time helping TODO grow. Keep rocking 🥂
 
-[![Contributors](https://contrib.rocks/image?repo=StabilityNexus-Org/TODO)](https://github.com/StabilityNexus-Org/TODO/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=StabilityNexus/TODO)](https://github.com/StabilityNexus/TODO/graphs/contributors)
 
 © 2025 StabilityNexus
