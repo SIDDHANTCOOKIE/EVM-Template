@@ -388,7 +388,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 💪 Thanks To All Contributors
 
-Thanks a lot for spending your time helping TODO grow. Keep rocking 🥂
+Thanks a lot for spending your time helping TODO grow. Keep rocking!
 
 [![Contributors](https://contrib.rocks/image?repo=StabilityNexus/TODO)](https://github.com/StabilityNexus/TODO/graphs/contributors)
 
