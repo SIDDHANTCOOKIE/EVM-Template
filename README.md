@@ -323,18 +323,17 @@ forge script script/Deploy.s.sol \
 
 ## Supported Networks
 
-Pre-configured RPC endpoints in `foundry.toml`. Each mainnet has a corresponding official token list maintained in the [StabilityNexus/TokenList](https://github.com/StabilityNexus/TokenList) repository.
+Pre-configured RPC endpoints in `foundry.toml`.
 
-| Network | Type | Chain ID | Token List |
+| Network | Type | Chain ID | 
 |---|---|---|---|
-| Ethereum | Mainnet | 1 | [ethereum-tokens.json](https://raw.githubusercontent.com/StabilityNexus/TokenList/main/ethereum-tokens.json) |
-| Ethereum Classic | Mainnet | 61 | [ethereum-classic-tokens.json](https://raw.githubusercontent.com/StabilityNexus/TokenList/main/ethereum-classic-tokens.json) |
-| BNB Smart Chain | Mainnet | 56 | [binance-smart-chain-tokens.json](https://raw.githubusercontent.com/StabilityNexus/TokenList/main/binance-smart-chain-tokens.json) |
-| Base | Mainnet | 8453 | [base-tokens.json](https://raw.githubusercontent.com/StabilityNexus/TokenList/main/base-tokens.json) |
-| Polygon PoS | Mainnet | 137 | [polygon-pos-tokens.json](https://raw.githubusercontent.com/StabilityNexus/TokenList/main/polygon-pos-tokens.json) |
-| Cardano Milkomeda | Mainnet | — | [cardano's-milkomeda-tokens.json](https://raw.githubusercontent.com/StabilityNexus/TokenList/main/cardano's-milkomeda-tokens.json) |
-| Sepolia | Testnet | 11155111 | _(testnet — no token list)_ |
-| Mordor (ETC) | Testnet | 63 | _(testnet — no token list)_ |
+| Ethereum | Mainnet | 1 |
+| Ethereum Classic | Mainnet | 61 |
+| Polygon PoS | Mainnet | 137 | 
+| BNB Smart Chain | Mainnet | 56 |
+| Base | Mainnet | 8453 | 
+| Sepolia | Testnet | 11155111 |
+| Mordor (ETC) | Testnet | 63 |
 
 ---
 
@@ -389,4 +388,4 @@ Thanks a lot for spending your time helping TODO grow. Keep rocking!
 
 [![Contributors](https://contrib.rocks/image?repo=StabilityNexus/TODO)](https://github.com/StabilityNexus/TODO/graphs/contributors)
 
-© 2025 StabilityNexus
+© 2025 Stability Nexus
